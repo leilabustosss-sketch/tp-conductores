@@ -1,0 +1,98 @@
+
+
+body {
+    background-color: #273441 !important;
+    font-family: sans-serif !important;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.nav-link:hover {
+    color: #2563eb !important;
+}
+
+
+.texto {
+    max-width: 520px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
+}
+
+.texto h1 {
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 20px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+form label {
+    
+    font-weight: 600;
+    color: #334155;
+    margin-bottom: -4px;
+}
+
+form input[type="text"],
+form input[type="number"] {
+    padding: 10px 14px;
+    border: 1.5px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+    background-color: #f8fafc;
+}
+
+
+
+
+.botones {
+    margin-top: 20px;
+    display: flex;
+    gap: 12px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    
+}
+
+.enviar_db,
+.enviar_ed {
+    color: #ffffff;
+    background-color: #2563eb;
+}
+
+.enviar_db:hover,
+.enviar_ed:hover {
+    background-color: #1d4ed8;
+    
+   
+}
+
+.borrar_db,
+.borrar_ed {
+    color: #ffffff;
+    background-color: #ef4444;
+}
+
+.borrar_db:hover,
+.borrar_ed:hover {
+    background-color: #dc2626;
+
+    
+}

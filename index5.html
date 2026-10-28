@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>general</title>
+
+    <link rel="stylesheet" href="style3.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg bg-body">
+    <div class="container-fluid">
+
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index1.html">Registrar Conductor</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index3.html">Registrar Vehículo</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index2.html">Ver Conductores</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index4.html">Ver Vehículos</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index5.html">General y filtro</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+
+<main>
+    <div class="mb-3">
+        <button type="button" onclick="filtrarPorCarnet('A1')">FILTRAR A1</button>
+        <button type="button" onclick="filtrarPorCarnet('A2')">FILTRAR A2</button>
+        <button type="button" onclick="filtrarPorCarnet('A3')">FILTRAR A3</button>
+    </div>
+
+    <div class="marco_uno">
+
+        <h2>CONDUCTORES</h2>
+
+        <div id="resultados_ed"></div>
+
+        <button class="borrar_ed"
+            type="button"
+            onclick="borrar_ed()">
+
+            BORRAR LISTA DE CONDUCTORES
+
+        </button>
+
+    </div>
+
+
+    <div class="marco_dos">
+
+        <h2>VEHÍCULOS</h2>
+
+        <div id="resultados_db"></div>
+
+        <button class="borrar_db"
+            type="button"
+            onclick="borrar_db()">
+
+            BORRAR LISTA DE VEHÍCULOS
+
+        </button>
+
+    </div>
+
+</main>
+
+
+<script src="scriptdb.js"></script>
+<script src="scripted.js"></script>
+<script src="filtro.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

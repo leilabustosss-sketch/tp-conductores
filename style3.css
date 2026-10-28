@@ -1,0 +1,125 @@
+
+body {
+    background-color: #394653 !important;
+    font-family:  sans-serif !important;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: #ffffff !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    padding: 12px 24px;
+}
+
+.nav-link {
+    color: #475569 !important;
+    font-weight: 600;
+    margin-right: 15px;
+    
+}
+
+.nav-link:hover{
+    color: #2563eb !important;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+
+form {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+form label {
+    font-weight: 600;
+    color: #e1e6ec;
+}
+
+form input {
+    padding: 8px 14px;
+    border: 1.5px solid #cbd5e1;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+form input {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(4, 5, 5, 0.15);
+}
+
+button {
+    padding: 8px 20px;
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+
+.marco_uno{
+background: #ffffff;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
+    width: 40%;
+   
+    box-sizing: border-box;
+}
+.marco_dos {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
+    width: 40%;
+    box-sizing: border-box;
+}
+
+.marco_uno {
+    float: left;
+}
+
+.marco_dos {
+    float: right;
+}
+
+.marco_uno h2,
+.marco_dos h2 {
+    font-weight: 700;
+    color: #0f172a;
+    border-bottom: 2px solid #3b82f6;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+.borrar_ed,
+.borrar_db {
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: #ef4444;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+  
+}
+
+.borrar_ed:hover,
+.borrar_db:hover {
+    background-color: #dc2626;
+}
+
+
