@@ -1,6 +1,6 @@
 let lista_ed = JSON.parse(localStorage.getItem("lista_ed")) || [];
 
-// Se ejecuta al cargar la página si existe el contenedor de resultados
+
 if (document.getElementById("resultados_ed")) {
     mostrar_lista_ed(lista_ed);
 }
@@ -42,7 +42,7 @@ function guardar_ed() {
     input_curso.value = "";
     if (input_seguro) input_seguro.checked = false;
 
-    // Solo actualiza la vista si estamos en una pantalla con lista
+    
     if (document.getElementById("resultados_ed")) {
         mostrar_lista_ed(lista_ed);
     }
