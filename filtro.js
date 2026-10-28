@@ -25,7 +25,7 @@ function filtrarPorCarnet(tipoCarnet) {
         div_estudiante.innerHTML = "<p>No hay conductores con carnet " + tipoCarnet + "</p>";
     }
 
-    // --- FILTRAR VEHÍCULOS ---
+
     div_docente.innerHTML = "";
     let vehiculosFiltrados = 0;
 
